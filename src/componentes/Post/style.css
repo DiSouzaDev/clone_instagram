@@ -1,0 +1,92 @@
+.header-posts{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+
+.header-posts *{
+    cursor: pointer;
+}
+
+.header-posts .img-user{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.infos-post{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.img-post img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.conteudo-post{
+    padding: 10px 15px;
+}
+
+.icons-post{
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-post .icons-1{
+    display: flex;
+    gap: 16px;
+}
+
+.icons{
+    cursor: pointer;
+}
+
+.like{
+    margin-top: 6px;
+}
+
+.like span{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legend{
+    margin: 6px 0 3px;
+}
+
+.legend p span{
+    color: black;
+    font-weight: 500;
+}
+
+.horas time{
+    font-size: 11px;
+    color: var(--secondary);
+}
+
+.coment{
+    border-top: 1px solid var(--border-secondary);
+    margin-top: 8px;
+    display: flex;
+}
+
+.fake-coment{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+
+    flex: 1;
+    gap: 16px;
+}
+
+.fake-coment input{
+    font-size: 16px;
+}
+
+.coment button{
+    color: var(--quartary);
+    cursor: pointer;
+}
