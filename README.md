@@ -1,5 +1,5 @@
 # clone_instagram
-A proposta da é criar um clone do instagram utilizando React.js e alguma API
+A proposta é criar um clone do instagram utilizando React.js. Utilizei uma API do github que mostra meus seguidores nas sugestões.
 
 # Como utilizar:
 
