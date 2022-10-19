@@ -38,6 +38,10 @@
     cursor: pointer;
 }
 
+.mudar:hover{
+    color: #71b9e8;
+}
+
 .user-infos p{
     font-size: 13px;
     font-weight: 600;
@@ -97,6 +101,10 @@
     font-weight: 600;
     color: var(--quartary);
     cursor: pointer;
+}
+
+.seguir:hover{
+    color: #71b9e8;
 }
 
 .footer-suggestion{

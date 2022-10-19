@@ -1,10 +1,14 @@
+.every{
+    display: flex;
+}
+
 .container {
     display: flex;
     gap: 16px;
     padding: 15px;
 }
 
-.story-elements {
+.user-element {
     cursor: pointer;
 }
 

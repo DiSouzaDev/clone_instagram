@@ -24,6 +24,8 @@
 .img-post img{
     width: 100%;
     object-fit: cover;
+    padding: 1px;
+    border-radius: 5px;
 }
 
 .conteudo-post{
@@ -77,7 +79,6 @@
     padding: 15px 0;
     display: flex;
     align-items: center;
-
     flex: 1;
     gap: 16px;
 }
@@ -89,4 +90,8 @@
 .coment button{
     color: var(--quartary);
     cursor: pointer;
+}
+
+.publicar:hover{
+    color: #71b9e8;
 }
