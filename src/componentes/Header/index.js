@@ -22,18 +22,10 @@ export function Header() {
 
                 <div className='menuIcons'>
                     <IconContext.Provider value={{ size: '26px' }}>
-                        <div>
-                            <RiMessengerLine />
-                        </div>
-                        <div>
-                            <BsPlusSquare />
-                        </div>
-                        <div>
-                            <MdOutlineExplore />
-                        </div>
-                        <div>
-                            <FiHeart />
-                        </div>
+                        <div className='icons'><RiMessengerLine /></div>
+                        <div className='icons'><BsPlusSquare /></div>
+                        <div className='icons'><MdOutlineExplore /></div>
+                        <div className='icons'><FiHeart /></div>
                     </IconContext.Provider>
                     <img className='img-user' src={user} />
                 </div>
