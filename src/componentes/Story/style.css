@@ -4,7 +4,7 @@
 
 .container {
     display: flex;
-    gap: 16px;
+    gap: 25px;
     padding: 15px;
 }
 
@@ -20,7 +20,6 @@
     align-items: center;
     justify-content: center;
     background: linear-gradient( #c82d8e, #f99d4c);
-
 }
 
 .image-user-story {
@@ -30,8 +29,33 @@
     border-radius: 50%;
 }
 
-.user-elemts span {
+/* .container .add{
+    border-radius: 60%;
+    background: #40aef7;
+} */
+
+/* #green{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
     align-items: center;
-    font-size: 13px;
+    justify-content: center;
+    background: rgb(12, 183, 55);
+} */
+
+.user-element span {
+    max-width: 100%;
+    align-items: center;
+    font-size: 15px;
     cursor: pointer;
+}
+
+.seu-story{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

@@ -1,6 +1,6 @@
 import { AiOutlineSearch } from 'react-icons/ai'
 import { RiMessengerLine } from 'react-icons/ri'
-import { BsPlusSquare } from 'react-icons/bs'
+import { BsPlusSquare, BsHouseDoorFill } from 'react-icons/bs'
 import { MdOutlineExplore } from 'react-icons/md'
 import { FiHeart } from 'react-icons/fi'
 import user from './img/user.png'
@@ -17,15 +17,16 @@ export function Header() {
                     <IconContext.Provider value={{ color: '#8e8e8e' }}>
                         <AiOutlineSearch />
                     </IconContext.Provider>
-                    <input placeholder='pesquisar' />
+                    <input placeholder='Pesquisar' />
                 </div>
 
                 <div className='menuIcons'>
                     <IconContext.Provider value={{ size: '26px' }}>
-                        <div className='icons'><RiMessengerLine /></div>
-                        <div className='icons'><BsPlusSquare /></div>
-                        <div className='icons'><MdOutlineExplore /></div>
-                        <div className='icons'><FiHeart /></div>
+                        <div className='ics'><BsHouseDoorFill /></div>
+                        <div className='ics'><RiMessengerLine /></div>
+                        <div className='ics'><BsPlusSquare /></div>
+                        <div className='ics'><MdOutlineExplore /></div>
+                        <div className='ics'><FiHeart /></div>
                     </IconContext.Provider>
                     <img className='img-user' src={user} />
                 </div>

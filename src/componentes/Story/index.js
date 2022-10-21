@@ -1,45 +1,46 @@
 import './style.css'
 import user from './img/user.png'
-import { useEffect, useState } from 'react'
+import proa from './img/PROA.png'
+import pan from './img/bancoPan.png'
+import google from './img/google.png'
+import spoti from './img/spotify.png'
 
 export function Story() {
 
-    const [story, setStory] = useState([])
-
-    const [limite, setLimite] = useState(5)
-
-    const slice = story.slice(0, limite)
-
-
-    useEffect(() => {
-        fetch(`https://api.github.com/users/Diogo-Javax888/followers`)
-            .then((response) => {
-                return response.json()
-            })
-            .then((result) => {
-                setStory(result)
-            })
-
-            .catch((err) => {
-                throw new Error(err)
-            })
-
-    }, [])
-
     return (
         <div className='every'>
-            {slice.map((story, key) => (
-                <div className='container' key={key}>
+                <div className='container'>
+                    <div className='user-element'>
+                        <div><img id='green' className='seu-story' src={user} /></div>
+                        <span>Seu_Story</span>
+                    </div>
+
+                    <div className='user-element'>
+                        <div><img className='image-user-story' src={proa} /></div>
+                        <span>InstPROA</span>
+                    </div>
 
                     <div className='user-element'>
                         <div>
-                            <img className='image-user-story' src={`https://github.com/${story.login}.png`} />
+                            <img className='image-user-story' src={pan} />
                         </div>
-                        <span>{story.login}</span>
+                        <span>BancoPAN</span>
                     </div>
 
+                    <div className='user-element'>
+                        <div>
+                            <img className='image-user-story' src={google} />
+                        </div>
+                        <span>Google</span>
+                    </div>
+
+                    <div className='user-element'>
+                        <div>
+                            <img className='image-user-story' src={spoti} />
+                        </div>
+                        <span>Spotify</span>
+                    </div>
                 </div>
-            ))}
         </div>
     )
 }

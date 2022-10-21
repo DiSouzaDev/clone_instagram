@@ -1,5 +1,5 @@
 .every{
-    width: 400px;
+    width: 350px;
 }
 
 .container-sugg{
@@ -36,10 +36,6 @@
     font-weight: 600;
     color: var(--quartary);
     cursor: pointer;
-}
-
-.mudar:hover{
-    color: #71b9e8;
 }
 
 .user-infos p{
@@ -101,10 +97,6 @@
     font-weight: 600;
     color: var(--quartary);
     cursor: pointer;
-}
-
-.seguir:hover{
-    color: #71b9e8;
 }
 
 .footer-suggestion{
